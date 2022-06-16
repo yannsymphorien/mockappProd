@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="m-2"><h4>type</h4></div>
+<div class="m-2"><a class="btn btn-light" href="{% url 'type_type_list' %}">type Listing</a></div>
+<div class="m-2"><h4>client</h4></div>
+<div class="m-2"><a class="btn btn-light" href="{% url 'client_client_list' %}">client Listing</a></div>
+<div class="m-2"><h4>product</h4></div>
+<div class="m-2"><a class="btn btn-light" href="{% url 'product_product_list' %}">product Listing</a></div>
+<div class="m-2"><h4>order</h4></div>
+<div class="m-2"><a class="btn btn-light" href="{% url 'order_order_list' %}">order Listing</a></div>
+<div class="m-2"><a class="btn btn-light" href="{% url 'order_offer_list' %}">offer Listing</a></div>
+{% endblock %}
